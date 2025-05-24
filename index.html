@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Ular Modern</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="notification" id="loss-notification">Anda Kalah!</div>
+  
+  <div class="container">
+    <h1>Game Ular Modern</h1>
+    
+    <div class="game-info">
+      <div id="score">Skor: 0</div>
+      <div id="high-score">High Score: 0</div>
+    </div>
+    
+    <div id="game-board">
+      <div class="game-over">
+        <h2>Game Over!</h2>
+        <p id="final-score">Skor: 0</p>
+        <button class="btn" id="restart-btn">Main Lagi</button>
+      </div>
+    </div>
+    
+    <div class="controls">
+      <button class="btn" id="start-btn">Mulai Game</button>
+      <button class="btn" id="pause-btn">Jeda</button>
+    </div>
+    
+    <div class="mobile-controls">
+      <button class="mobile-btn up">↑</button>
+      <button class="mobile-btn left">←</button>
+      <button class="mobile-btn right">→</button>
+      <button class="mobile-btn down">↓</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
